@@ -1,0 +1,20 @@
+# Python side of the framework (perception + gripper bridges only; MATLAB does the planning).
+# Pinned to the versions actually used for the four reported hardware sessions of 2026-07-29.
+# Python 3.11.9 on Windows. MATLAB reaches these through its `py.` bridge, so this interpreter
+# must be the one named in config/projectConfig.m -> cfg.python.exe.
+#
+#   py -3.11 -m venv .venv
+#   .venv\Scripts\activate
+#   pip install -r requirements.txt
+#
+# Campus/corporate SSL inspection breaks pip's certificate chain on some networks. If pip fails
+# with an SSL error, add:
+#   --trusted-host pypi.org --trusted-host files.pythonhosted.org
+#
+# pyrealsense2 ships as a wheel only for CPython 3.11 and below on Windows; a newer Python will
+# fail to resolve it. This is the reason the project pins 3.11.
+
+pyrealsense2==2.58.1.10581
+opencv-python==4.13.0.92
+pymodbus==3.13.0
+numpy==2.4.6

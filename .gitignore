@@ -1,0 +1,18 @@
+# This directory is itself the git repository root, so the project-level .gitignore one level up
+# does not apply here. The rules are repeated.
+
+# Session recordings of the physical cell. Each exceeds GitHub's 100 MB per-file hard limit
+# (371 MB and 290 MB), so they are deposited on Zenodo and cited from the paper instead.
+*.mp4
+*.mkv
+*.avi
+
+# MATLAB figure sources for images committed as PNG
+*.fig
+
+# Archives and OS clutter
+*.zip
+*.rar
+Thumbs.db
+desktop.ini
+.DS_Store
