@@ -215,6 +215,8 @@ here", plus:
 | `real_cell/MATLAB-Startup_demo13-interactive.png` | session start-up, showing the resolved configuration and the connection handshake |
 | `real_cell/dt_real.jpg`, `dt_scene.png`, `Matlab_Sim_Scene.png` | the physical cell and the corresponding twin scene |
 
-Two screen recordings of the physical cell (371 MB and 290 MB) cover longer command sequences than
-the stills. Both exceed GitHub's 100 MB per-file limit, so they are deposited on Zenodo and cited
-from the paper's Data and Code Availability section rather than committed here.
+Recordings of the physical cell cover longer command sequences than the stills, and exceed GitHub's
+100 MB per-file limit, so they are not committed here. A 6 min 09 s recording showing the digital
+twin running alongside the robot is deposited at <https://doi.org/10.5281/zenodo.21752270>
+(CC BY 4.0). It was made on 2026-07-31, after the four reported sessions of 2026-07-29, so it
+demonstrates the deployed pipeline rather than reproducing a benchmark session.
